@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" type="text/css" href="styles/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/iconfont/iconfont.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/order.css"/>
+	<title>Document</title>
+	<script type="text/javascript">
+        document.documentElement.style.fontSize=document.documentElement.clientWidth/100*24.16+'px';
+    </script>
+</head>
+<body>
+	<div class="order">
+	    <div class="jf-top">
+	      <div class="picImg">
+	        <a href="detail.html" class="iconfont icon-xiangzuo"></a>
+	      </div>
+	      <p>订单</p>
+	    </div>
+	    <ul class="shopBox" style="display: none;">
+	      <li class="jf-shop">
+	        <div class="listTop">
+	          <a to="/" class="listA"><img src="images/detail/menu01.webp"></a>
+	        <div class='listTopLeft'>
+	        <div class="listLeft">
+	          <a to="/">
+	             <p class="pOne">华莱士炸鸡汉堡
+	             	<i class="iconfont .icon-llmainpageback-copy-cop"></i>
+	             </p>
+	           </a>
+	          <a to="/">
+	            <span class="cancel">订单已送达</span>
+	          </a>
+	        </div>
+	          <p class="time">7时40分钟前</p>
+	          <div class="shopBt">
+	            <p>
+	            	<span>牛肉堡鸡肉卷</span>
+	            	<span>等3件商品</span>
+	            </p>
+	            <p class="monery">￥27.00</p>
+	          </div>
+	        </div>
+	        </div>
+	        <p class="buy">
+	          <router-link to='/'>
+	            <span>再来一单</span>
+	          </router-link>
+	          </p>
+	      </li>
+	    </ul>
+	    <div class="jf-w">
+	      <div class="picimg">
+	        <img src="images/detail/login.png">
+	      </div>
+	      <div class="jf-footer">
+	        <h3>登录后查看外卖订单</h3>
+	      </div>
+	      <div class="jf-footer">
+	        <router-link to="/" class="btns" tag="div">立即登录</router-link>
+	      </div>
+	    </div>
+	 </div>
+	 <!-- footer S -->
+    	<footer class="foo">
+		    <ul>
+		      <li>
+		        <a href="index.html" class="home">
+		          <span class="iconfont icon-changyonglogo401"></span>
+		          	首页
+		        </a>
+		      </li>
+		       <li>
+		        <a href="#/find">
+		          <span class="iconfont icon-faxian"></span>
+		          	发现
+		        </a>
+		      </li>
+		       <li>
+		        <a href="#/order">
+		          <span class="iconfont icon-icon--copy"></span>
+		          	订单
+		        </a>
+		      </li>
+		       <li>
+		        <a href="#/center">
+		          <span class="iconfont icon-wode-copy"></span>
+		          	我的
+		        </a>
+		      </li>
+		    </ul>
+  		</footer>
+    <!-- footer E -->
+</body>
+</html>
